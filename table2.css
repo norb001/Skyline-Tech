@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(45deg, #21d4fd 0%, #b721ff 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 80px;
+}
+
+table, th, td{
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: aquamarine;
+}
+
+table{
+    width: 80%;
+    font-size: 10px;
+}
+
+td, th{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+    
+}
+
+tr:hover{
+    background-color: darkgray;
+}
+
+caption{
+    background-color: dodgerblue;
+    margin: auto;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 40%;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+
